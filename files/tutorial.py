@@ -2,6 +2,7 @@
 # PS C:\Users\samkh\Documents\python\opencv> .\env1\Scripts\activate
 # (env1) PS C:\Users\samkh\Documents\python\opencv> pip install opencv-python
 import cv2
+#this is my repo for opencv projects
 #default channel mode is BGR color mode
 # image=cv2.imread('test.jpeg',cv2.IMREAD_COLOR)
 # image=cv2.imread('test.jpeg',cv2.IMREAD_GRAYSCALE)
