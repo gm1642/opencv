@@ -35,7 +35,7 @@ print(height)
 
 
 
-print("frames are {}".format(fps))
+print(f"frames are {fps}")
 #if(opened):
 while(opened):
         ret,frame=cap.read()
