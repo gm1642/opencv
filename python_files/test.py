@@ -1,7 +1,8 @@
 import sys
 print(len(sys.argv))
-print(sys.argv[0])
-print(sys.argv[1])
+print(sys.argv[0])#by default displays the file name
+print(sys.argv[1])#this line is used only when we need to recieve the argument
+
 # Windows PowerShell
 # Copyright (C) Microsoft Corporation. All rights reserved.
 
