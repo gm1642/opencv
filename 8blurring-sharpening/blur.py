@@ -21,6 +21,7 @@ output_gaus = cv2.GaussianBlur(img, (5,5), 0)
 output_med = cv2.medianBlur(img, 5)
 
 #Bilateral filtering (Reduction of noise + Preserving of edges)
+# cv2.bilateralFilter(src,d,sigmaColor=,sigmaSpace=)
 
 output_bil = cv2.bilateralFilter(img, 5, 6, 6)
 
