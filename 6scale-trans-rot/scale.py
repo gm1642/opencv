@@ -4,7 +4,7 @@ import numpy as np
 
 #Scaling operation
 #Reading original Image
-image = cv2.imread('sample.png')
+image = cv2.imread('sample.jpg')
 
 image_sized = cv2.resize(image, (300,300))
 
