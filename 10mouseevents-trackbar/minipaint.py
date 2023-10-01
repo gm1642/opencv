@@ -34,6 +34,7 @@ def draw_circle(event,x,y,flags,param):
 
 cv2.namedWindow('track')
 cv2.createTrackbar('shape', 'track', 0, 1, onChange)
+# cv2.createTrackbar(trackbarname, windowname, value, count, onChange)
 # We bind the keyboard key m to toggle between rectangle and circle.  
 img = np.zeros((512,512,3), np.uint8)
 cv2.namedWindow('image')
