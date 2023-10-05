@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 #reading a image from computer and taking dimensions
-img = cv2.imread('noisy.jpg')
+img = cv2.imread('noisy.jpg')   
 rows, cols = img.shape[:2]
 
 #Kernel Blurring using filter2D()
@@ -21,7 +21,7 @@ output_gaus = cv2.GaussianBlur(img, (5,5), 0)
 output_med = cv2.medianBlur(img, 5)
 
 #Bilateral filtering (Reduction of noise + Preserving of edges)
-# cv2.bilateralFilter(src,d,sigmaColor=,sigmaSpace=)
+# cv2.bilateralFilter(src,distance,sigmaColor=,sigmaSpace=)
 
 output_bil = cv2.bilateralFilter(img, 5, 6, 6)
 
