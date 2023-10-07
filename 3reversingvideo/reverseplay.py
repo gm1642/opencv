@@ -5,7 +5,6 @@ import cv2
 cap = cv2.VideoCapture('sample.mp4')
 
 #Properties of Video
-
 #Total number of frames in video
 frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
 
