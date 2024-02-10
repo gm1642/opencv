@@ -89,13 +89,13 @@ cv2.destroyAllWindows()
 
 
 '''
-HOW CAN WE INCREASE THE DIFFICULTY OF THE GAME?
+whats next INCREASE THE DIFFICULTY OF THE GAME?
 - Make the ball faster
 - Make the paddle smaller
 - Make both of them happen at the same time.
 
 
-############## FUTURE TASKS AND ASSiGNMENTS ################
+############## FUTURE TASKS ################
 - Add functionality so that whenever the ball hits the paddle, the speed increases
 - Also, whenever the ball hits the top of the frame, the paddle becomes smaller by some amount.
 - Also, add the tracker for the current coordinates of the position of the ball. Show it in the top left of the screen.
